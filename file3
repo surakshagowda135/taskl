@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter a number"
+read num
+ans=$(( num%2 ))
+
+if [[ $ans == 0 ]]; then
+	echo "even"
+else
+	echo "odd"
+fi
