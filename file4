@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "enter day"
+read day
+
+case $day in 
+monday) echo "working day"
+;;
+tuesday) echo "working day"
+;;
+wednesday) echo "working day"
+;;
+thursday) echo "working day"
+;;
+friday) echo "working day"
+;;
+saturday) echo "not working"
+;;
+sunday) echo "not working"
+;;
+*) echo "not valid"
+;;
+esac
+
